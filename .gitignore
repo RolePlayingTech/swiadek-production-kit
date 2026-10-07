@@ -1,0 +1,47 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+eleven.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Media and production artifacts (keep repos lean)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+!docs/**/*.png
+!docs/**/*.jpg
+
+# Local project workspaces
+projects/*/raw/
+projects/*/audio/
+projects/*/anchors/
+projects/*/assembled/
+projects/*/qc/
+projects/*/renders/
+
+# Chrome / Playwright / OS
+flow_state*.png
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

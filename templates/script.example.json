@@ -1,0 +1,40 @@
+{
+  "title": "Przykładowy minidokument",
+  "theme": "chronicle",
+  "fps": 24,
+  "resolution": { "width": 1920, "height": 1080 },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "aroll",
+      "speaker": "Świadek Dziejów",
+      "environment": "gabinet",
+      "dialog": "Pytanie, które ma wciągnąć widza w pierwszych sekundach.",
+      "words": 10,
+      "anchor": "anchors/swiadek_gabinet.jpg",
+      "raw": "raw/s01.mp4",
+      "prompt": "The mature charismatic man from the reference portrait looks into camera and speaks aloud in clear natural Polish: \"Pytanie, które ma wciągnąć widza w pierwszych sekundach.\". Flawless Polish lip-sync, finishes by 8.0 seconds, then a calm pause. Clean native audio. 10 seconds, landscape 16:9.",
+      "keywords": ["pytanie", "wciągnąć", "widza"]
+    },
+    {
+      "id": "s02",
+      "kind": "broll",
+      "title": "Kontekst faktograficzny",
+      "tts": "[thoughtful] Tu lektor podaje fakty, daty zapisane słownie i porównania, których obraz nie wypowiada sam.",
+      "audio": "audio/s02.mp3",
+      "mode": "chronicle_map_or_process"
+    },
+    {
+      "id": "s03",
+      "kind": "aroll",
+      "speaker": "Świadek Dziejów i Rozmówca",
+      "environment": "wspolna_przestrzen",
+      "dialog": "Świadek: Proste pytanie laika? Rozmówca: Obrazowa odpowiedź w kilku słowach.",
+      "words": 12,
+      "anchor": "anchors/duet_example.jpg",
+      "raw": "raw/s03.mp4",
+      "prompt": "In the shared room from the start frame, the host asks in Polish and the guest answers. Clear native Polish, finished by 8.5 seconds. 10 seconds, landscape 16:9.",
+      "keywords": ["pytanie", "odpowiedź"]
+    }
+  ]
+}
